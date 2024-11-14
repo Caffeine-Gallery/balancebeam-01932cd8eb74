@@ -1,7 +1,8 @@
 import { backend } from "declarations/backend";
 
 const plugWhitelist = [
-    process.env.CANISTER_ID_BACKEND
+    process.env.CANISTER_ID_BACKEND,
+    process.env.CANISTER_ID_FRONTEND  // Adding frontend canister ID to whitelist
 ];
 
 const PLUG_HOST = "https://mainnet.plugwallet.ooo";
